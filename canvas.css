@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+body { 
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0px;
+  margin-right: 0px;
+  overflow: hidden;
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+/* #sketch-holder {
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+} */
